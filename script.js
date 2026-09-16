@@ -1,24 +1,10 @@
-// let zahl1 = 5;
-// let zahl2 = 10;
-
-// console.log(zahl1+zahl2);
-// console.log(zahl1-zahl2);
-
-// console.log(zahl1++);
-// zahl1++;
-
-// console.log(5 == "5");
-// console.log(5 < 9);
-
-
-function functionName(zahl1,zahl2) {
-    let result = zahl1 + zahl2;
+function functionName (text1,text2,text3) {
+    let result =text1 + text2 + text3;
     return result;
 }
 
-console.log(functionName(5, 5));
-
-let zahl1 = 5
-let zahl2 = 12
-
+let text1 = "Hi";
+let text2 = "My Name is Jule";
+let text3 = "What´s your Name?";
+console.log (functionName(text1 + text2 + text3));
 
